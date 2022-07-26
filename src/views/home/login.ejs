@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+<link rel="stylesheet" href="/css/home/cadastro.css">
+
+<body>
+    <main class="main">
+        <section class="login">
+            <form action="/login" method="POST" class="formulario">
+                <h1>
+                    Login
+                </h1>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Insira seu e-mail">
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Insira sua senha">
+                </div>
+                <button type="submit" class="btn btn-success">Entrar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
