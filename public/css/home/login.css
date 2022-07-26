@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: #EBF6F0;
+}
+
+.main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 30vw;
+    box-shadow: 0 0 50px #DDDD;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.formulario div {
+    margin-bottom: 5px;
+}
+
+.formulario h3 {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.formulario h6 {
+    font-size: 0.9rem;
+}
+
+.formulario input {
+    background-color: #EEEEEE;
+    border: 0.1rem solid #EEEEEE;
+    border-radius: 10px;
+}

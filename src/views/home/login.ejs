@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <%- include('../partials/head') %>
-<link rel="stylesheet" href="/css/home/cadastro.css">
+<link rel="stylesheet" href="/css/home/login.css">
 
 <body>
+    <%- include('../partials/header') %>
+    
     <main class="main">
         <section class="login">
             <form action="/login" method="POST" class="formulario">
-                <h1>
-                    Login
-                </h1>
+                <h3>
+                    LOGIN
+                </h3>
+                <br>
                 <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="Insira seu e-mail">
+                    <label for="email">EMAIL</label>
+                    <br>
+                    <input type="email" name="email">
                 </div>
                 <div>
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Insira sua senha">
+                    <label for="senha">SENHA</label>
+                    <br>
+                    <input type="password" name="senha" placeholder="">
                 </div>
+                <br>
                 <button type="submit" class="btn btn-success">Entrar</button>
             </form>
         </section>
     </main>
+
+    <%- include('../partials/footer') %>
+
 </body>
 
 </html>
