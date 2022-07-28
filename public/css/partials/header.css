@@ -2,12 +2,12 @@
 
 body {
     box-sizing: border-box;
-    background-color: #EBF6F0;
+    background-color: #EEEEEE;
 }
 
 .header-container {
     font-family: 'Montserrat', sans-serif;
-    background-color: #94B49F;
+    background-color: #B20600;
     height: 3.5rem;
     width: 100%;
     display: flex;
@@ -22,5 +22,5 @@ body {
 
 .logotipo h1 {
     font-size: 1.2rem;
-    color: #876445;
+    color: #00092C;
 }

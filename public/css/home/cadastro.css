@@ -2,7 +2,7 @@
 
 body {
     box-sizing: border-box;
-    background-color: #EBF6F0;
+    background-color: #EEEEEE;
 }
 
 .main {
@@ -51,6 +51,6 @@ body {
 
 .formulario a {
     text-decoration: none;
-    color: #1A4D2E;
+    color: #FF5F00;
     font-weight: 800;
 }
